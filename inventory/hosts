@@ -95,8 +95,12 @@ ie_prod
 [in_prod]
 openfoodnetwork.in
 
+[in_staging]
+a.trk.tools ansible_user=ubuntu
+
 [in:children]
 in_prod
+in_staging
 
 #------------------------------------------------------------------------------
 # Italy
